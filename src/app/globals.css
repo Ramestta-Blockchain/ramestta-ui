@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+ 
+
+}
+body{
+  background-color: #2D3037 !important;
+}
+
+@font-face {
+  font-family: 'Zilap Orion Personal Use';
+  src: url('../font/ZilapOrionPersonalUse-Linear.woff2') format('woff2'),
+      url('../font/ZilapOrionPersonalUse-Linear.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Zilap Orion Personal Use';
+  src: url('../font/ZilapOrionPersonalUse-Futuristic.woff2') format('woff2'),
+      url('../font/ZilapOrionPersonalUse-Futuristic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Zilap Orion Personal Use';
+  src: url('../font/ZilapOrionPersonalUse-Urban.woff2') format('woff2'),
+      url('../font/ZilapOrionPersonalUse-Urban.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Regular.woff2') format('woff2'),
+      url('../font/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.slick-slide img {
+  max-width: none !important;
+}
+
+.slick-dots {
+  display: none !important;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+.iframe_box{
+  width: 100% !important;
+  height:100% !important;
+}
+
+
+.bnrbg{
+  background-image: url(../icons/rama/bnrbg.svg);
+  background-repeat:no-repeat;
+}
+
+.bnrbg2{
+  background-image: url(../icons/rama/bgsecond.svg);
+  background-repeat:no-repeat;
+}
