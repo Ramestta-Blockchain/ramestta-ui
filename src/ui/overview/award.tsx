@@ -3,7 +3,7 @@ import Text from "@/theme/components/text";
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
-import scale from '../../icons/rama/scale.svg'
+import scale from '../../icons/rama/scale.gif'
 
 
 const Award = () => {
