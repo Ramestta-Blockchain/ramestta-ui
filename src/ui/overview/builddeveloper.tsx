@@ -22,7 +22,7 @@ const useStyles = makeStyles({
     bnrimg: {
         width: '450px',
         height: 'auto',
-        animation: '$rotate 20s linear infinite',  // Applies continuous rotation
+        animation: '$rotate 10s linear infinite',  // Applies continuous rotation
         '@media(max-width : 1200px)': {
             width: '350px',
             '@media(max-width : 900px)': {

@@ -34,8 +34,8 @@ const useStyles = makeStyles({
             }
         }
     },
-    bnrlogo: {
-        width: '200px',
+     bnrlogo: {
+        width: '65px',
         height: 'auto',
         '@media(max-width : 600px)': {
             width: '100px',
@@ -45,7 +45,6 @@ const useStyles = makeStyles({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        marginTop: '-0.5rem',
         '@media(max-width : 1200px)': {
             marginTop: '-1.3rem',
             '@media(max-width : 900px)': {
@@ -105,18 +104,17 @@ const Aboutbnr = () => {
                 <Box
                     className="bnrbg2"
                     sx={{
-                        padding: '4rem 2rem',
+                        padding: '2rem 0rem',
                         margin: '3rem 0rem',
-                        backgroundSize: '100%',
+                        backgroundSize: '100% 100%',
                         '@media(max-width : 1200px)': {
-                            margin: '3rem 0rem 0rem 0rem',
-
+                            margin: '0rem 0rem',
+                            padding: '0rem 0rem',
                             '@media(max-width : 900px)': {
-                                padding: '2rem 2rem',
+                                margin: '2rem 0rem',
                                 '@media(max-width : 600px)': {
-                                    padding: '2rem 1rem',
-                                    backgroundImage: 'inherit',
-                                    margin: '0rem 0rem 0rem 0rem',
+                                    padding: '1rem 1rem',
+                                    backgroundImage: 'inherit'
                                 }
                             }
                         }
